@@ -12,6 +12,7 @@ export default function VideoPlayer(){
                     width="100%"
                     controls //this includes HTML video functionalities like play, pause, etc
                     innerRef={videoRef} //accesses video functionalities through the videoRef variable
+                    secure={true}
                 />
             </div>
         </CloudinaryContext>
