@@ -1,5 +1,5 @@
-import Head from '../components/headfunc'
-import Header from '../components/header'
+import Head from '../components/Headfunc'
+import Header from '../components/Header'
 
 export default function Contact(){
     return (
