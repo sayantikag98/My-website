@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Header(){
     return (
-        <header className='fixed w-full h-14 bg-gradient-to-r from-purple-400 to-pink-400 flex justify-between'>
+        <header className='fixed w-full h-16 bg-gradient-to-r from-purple-400 to-pink-400 flex justify-between'>
           <section className='flex w-64 pl-12 justify-between items-center'>
             <Image className="rounded" src="/images/logo.png" alt="logo" width={40} height={30}/>
             <h1 className="text-xl text-white font-bold">Sayantika Ghosh</h1> 
