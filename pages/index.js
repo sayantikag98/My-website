@@ -4,16 +4,18 @@ import Footer from '../components/Footer'
 import { useState } from 'react'
 
 
+
 export default function Home() {
     const [controlsAttr, setControlsAttr] = useState(false);
-
+    
+    
     return (
-    <div>
+    <div id='main-div' className='bg-color100 dark:bg-color101 relative'>
       <Head title="Sayantika Ghosh - An aspiring web developer"></Head>
       <Header/> 
       <main>
         <section className='flex justify-center pt-24 pb-20'>
-          <h1 className='font-mono self-center text-6xl text-purple-400 pr-10'>
+          <h1 className={`font-mono self-center text-6xl text-color101 dark:text-color100 pr-10`}>
             <div className='hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex justify-end'>
               <span className="hover:text-pink-400">A</span>
               <span className="hover:text-pink-400">n</span>
@@ -54,7 +56,7 @@ export default function Home() {
           </video>
         </section>  
       </main>
-      <Footer />
+      <Footer/>
     </div>
   )
 }
