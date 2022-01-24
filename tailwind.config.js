@@ -1,10 +1,7 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{html,js}", 
-    "./node_modules/tw-elements/dist/js/**/*.js",
-    "./node_modules/@themesberg/flowbite/**/*.js"
+    "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     colors: {
@@ -113,8 +110,6 @@ module.exports = {
     }
   },
   plugins: [
-    require('tw-elements/dist/plugin'),
-    require('@themesberg/flowbite/plugin')
   ],
   darkMode: "class",
 }
