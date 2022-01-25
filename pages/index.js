@@ -20,37 +20,37 @@ export default function Home() {
         <section className='flex justify-center pt-24 pb-20 bg-color1 min-h-screen'>
           <h1 className={`font-mono self-center text-6xl text-color101 dark:text-color100 pr-10`}>
             <div className='hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex justify-end'>
-              <span className="hover:text-pink-400">A</span>
-              <span className="hover:text-pink-400">n</span>
+              <span className="hover:text-color12">A</span>
+              <span className="hover:text-color12">n</span>
             </div>
             
             <div className='hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 pb-2 flex justify-end'>
-              <span className="hover:text-pink-400">a</span>
-              <span className="hover:text-pink-400">s</span>
-              <span className="hover:text-pink-400">p</span>
-              <span className="hover:text-pink-400">i</span>
-              <span className="hover:text-pink-400">r</span>
-              <span className="hover:text-pink-400">i</span>
-              <span className="hover:text-pink-400">n</span>
-              <span className="hover:text-pink-400">g</span>
+              <span className="hover:text-color12">a</span>
+              <span className="hover:text-color12">s</span>
+              <span className="hover:text-color12">p</span>
+              <span className="hover:text-color12">i</span>
+              <span className="hover:text-color12">r</span>
+              <span className="hover:text-color12">i</span>
+              <span className="hover:text-color12">n</span>
+              <span className="hover:text-color12">g</span>
             </div>
             
             <div className='hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 pb-1 flex justify-end'>
-              <span className="hover:text-pink-400">w</span>
-              <span className="hover:text-pink-400">e</span>
-              <span className="hover:text-pink-400">b</span>
+              <span className="hover:text-color12">w</span>
+              <span className="hover:text-color12">e</span>
+              <span className="hover:text-color12">b</span>
             </div>
             
             <div className='hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex justify-end'>
-              <span className="hover:text-pink-400">d</span>
-              <span className="hover:text-pink-400">e</span>
-              <span className="hover:text-pink-400">v</span>
-              <span className="hover:text-pink-400">e</span>
-              <span className="hover:text-pink-400">l</span>
-              <span className="hover:text-pink-400">o</span>
-              <span className="hover:text-pink-400">p</span>
-              <span className="hover:text-pink-400">e</span>
-              <span className="hover:text-pink-400">r</span>
+              <span className="hover:text-color12">d</span>
+              <span className="hover:text-color12">e</span>
+              <span className="hover:text-color12">v</span>
+              <span className="hover:text-color12">e</span>
+              <span className="hover:text-color12">l</span>
+              <span className="hover:text-color12">o</span>
+              <span className="hover:text-color12">p</span>
+              <span className="hover:text-color12">e</span>
+              <span className="hover:text-color12">r</span>
             </div>
             
           </h1>

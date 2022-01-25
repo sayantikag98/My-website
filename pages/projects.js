@@ -30,7 +30,7 @@ export default function Project(){
                                 <span className="ml-2 text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color68 text-white rounded">Rapid API</span>
                                 <span className="ml-2 text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color95 text-white rounded">Heroku</span>
                             </div>
-                            <div className="absolute right-20 block p-6 rounded-lg shadow-lg bg-color4 max-w-sm flex justify-end">
+                            <div className="absolute right-28 block p-6 rounded-lg shadow-lg bg-color4 max-w-sm flex justify-end">
                                 <p className="text-gray-800 text-right">A simple solver for a 9x9 sudoku grid. It takes a string as the initial board configuration and returns the result as a JSON object. Available on <a className='underline underline-offset-1 decoration-color100 decoration-double' href="https://rapidapi.com/sayantikag98/api/sudoku-solver2/">Rapid API Hub</a>.</p>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ export default function Project(){
                                 <span className="mr-2 text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color68 text-white invisible rounded">Rapid</span>
                                 <span className="mr-2 text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color95 text-white invisible rounded">Heroku</span>
                             </div>
-                            <div className="absolute left-20 z-10 block p-6 rounded-lg shadow-lg bg-color4 max-w-sm flex justify-end">
+                            <div className="absolute left-28 z-10 block p-6 rounded-lg shadow-lg bg-color4 max-w-sm flex justify-end">
                                 <p className="text-gray-800 text-left">Tic Tac Toe game made using vanilla javascript and designed using bootstrap.</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export default function Project(){
                                 <span className="ml-2 text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color95 text-white rounded">CSS</span>
 
                             </div>
-                            <div className="absolute right-20 block p-6 rounded-lg shadow-lg bg-color4 max-w-sm flex justify-end">
+                            <div className="absolute right-28 block p-6 rounded-lg shadow-lg bg-color4 max-w-sm flex justify-end">
                                 <p className="text-gray-800 text-right">IMDb UI clone made with only HTML and CSS with no framework being used.</p>
                             </div>
                         </div>
