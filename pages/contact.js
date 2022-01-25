@@ -11,7 +11,7 @@ export default function Contact(){
                     Contact Me
                 </h1>
                 <div className="ml-auto mr-auto block p-6 rounded-lg shadow-lg bg-color4 max-w-md">
-                    <form action='mailto:sayantikaghosh98@gmail.com' method='GET'>
+                    <form action='mailto:sayantikaghosh98@gmail.com' method='GET' encType="text/plain">
                         <div className="form-group mb-6">
                             <input type="text" className="form-control block
                                 w-full
