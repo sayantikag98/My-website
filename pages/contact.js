@@ -3,7 +3,7 @@ import Header from '../components/Header'
 
 export default function Contact(){
     return (
-        <div className='bg-color101 h-full'>
+        <div className='bg-color101 min-h-screen'>
             <Head title="Contact me"></Head>
             <Header></Header>
             <main className='pl-10 pr-10'>
