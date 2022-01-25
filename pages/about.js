@@ -1,6 +1,5 @@
 import Head from '../components/Headfunc'
 import Header from '../components/Header'
-import Link from 'next/link';
 
 export default function About(){
     return (
@@ -17,7 +16,7 @@ export default function About(){
 
                     I love learning and contributing to the tech community and it has become a significant part of my career. Apart from the web I like to improve upon my Data Structure and Algorithms skills which are significantly important to overall improve myself in writing accurate and efficient code.
 
-                    All my works are listed on <Link href="https://github.com/sayantikag98/"><a className='underline underline-offset-1 decoration-color5 decoration-double p-0.5 rounded hover:bg-color0 hover:text-black'>GitHub</a></Link>.
+                    All my works are listed on <a className='underline underline-offset-1 decoration-color5 decoration-double p-0.5 rounded hover:bg-color100 hover:text-color101 hover:font-bold' href="https://github.com/sayantikag98?tab=repositories" target="_blank" rel='noopener noreferrer'>GitHub</a>.
                     
                 </p>
                    

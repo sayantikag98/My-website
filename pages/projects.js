@@ -1,19 +1,18 @@
 import Head from '../components/Headfunc'
 import Header from '../components/Header'
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Project(){
     return (
         <div className='bg-color101 min-h-screen'>
             <Head title="My projects"></Head>
             <Header></Header>
-            <main className='pl-10 pr-10'>
+            <main className='pl-10 pr-10 pb-16'>
                 <h1 className="text-5xl pt-24 pb-8">
                     My projects
                 </h1>
                 <section>
-                    <div className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
+                    <div id="project1"className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
                         <a target="_blank" rel='noopener noreferrer' href="https://rapidapi.com/sayantikag98/api/sudoku-solver2/"><Image src="/images/sudoku-solver-API.png" height={400} width={650} class="rounded-lg" alt="..." /></a>
                         <div className='flex-col pt-3 pr-2 mt-10'>
                             <h2 className="text-4xl font-medium leading-tight mt-0 mb-2 text-color69 flex justify-end">Sudoku Solver API</h2>
@@ -39,7 +38,7 @@ export default function Project(){
 
 
 
-                    <div className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
+                    <div id="project2" className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
                         <div className='flex-col pt-3 pl-2 mt-16'>
                             <h2 className="text-4xl font-medium leading-tight mt-0 mb-2 text-color69 flex justify-start">Tic Tac Toe</h2>
                             <div className="flex justify-start mb-3">
@@ -63,7 +62,7 @@ export default function Project(){
 
 
 
-                    <div className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
+                    <div id="project3"className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
                         <a target="_blank" rel='noopener noreferrer' href="http://my-imdb-clone.vercel.app/"><Image src="/images/IMDb-clone.png" height={400} width={650} class="rounded-lg" alt="..." /></a>
                         <div className='flex-col pt-8 mt-12'>
                             <h2 className="text-4xl font-medium leading-tight mt-0 mb-2 text-color69 flex justify-end">IMDb UI Clone</h2>

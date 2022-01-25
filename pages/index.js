@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import { useState } from 'react'
 import Image from 'next/image'
 import Script from 'next/script'
+import Link from 'next/link'
 
 
 
@@ -94,12 +95,16 @@ export default function Home() {
                     This sudoku solver takes a string as the initial board configuration and returns the result as a JSON object. This is a part of Rapid API Hub.
                     </p>
                     <div className="flex space-x-2 justify-center">
+                    <Link href="/projects/#project1"><a>
                       <button
                         type="button"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
                         className="inline-block px-6 py-2.5 bg-color1 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                      >View Project</button>
+                      >
+                        View Project
+                      </button>
+                      </a></Link>
                     </div>
                   </div>
                 </div>
@@ -115,12 +120,14 @@ export default function Home() {
                       A Tic Tac Toe game built using vanilla javascript and UI designed using CSS framework Bootstrap.
                     </p>
                     <div className="flex space-x-2 justify-center">
+                    <Link href="/projects/#project2"><a>
                       <button
                         type="button"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
                         className="inline-block px-6 py-2.5 bg-color1 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                       >View Project</button>
+                      </a></Link>
                     </div>
                   </div>
                 </div>
@@ -136,12 +143,14 @@ export default function Home() {
                       This IMDb UI clone was made using only HTML and CSS. No framework was used for this project.
                     </p>
                     <div className="flex space-x-2 justify-center">
+                    <Link href="/projects/#project3"><a>
                       <button
                         type="button"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
                         className="inline-block px-6 py-2.5 bg-color1 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                       >View Project</button>
+                      </a></Link>
                     </div>
                   </div>
                 </div>
