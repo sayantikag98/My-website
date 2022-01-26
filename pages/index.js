@@ -113,11 +113,11 @@ export default function Home() {
               <div className="carousel-item float-left w-full">
               <div className="flex justify-center">
                 <div className="flex flex-col md:flex-row md:max-w-2xl rounded-lg bg-color4 shadow-lg">
-                  <Image className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg max-w-sm" src="/images/tic-tac-toe.png" alt="Wild Landscape" height={500} width={1000} />
+                  <Image className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg max-w-sm" src="/images/VS-Code-Theme.png" alt="Wild Landscape" height={500} width={1000} />
                   <div className="p-6 flex flex-col justify-start">
-                    <h5 className="text-gray-900 text-xl font-medium mb-2">Tic Tac Toe</h5>
+                    <h5 className="text-gray-900 text-xl font-medium mb-2">Minimalist_theme</h5>
                     <p className="text-gray-700 text-base mb-4">
-                      A Tic Tac Toe game built using vanilla javascript and UI designed using CSS framework Bootstrap.
+                      A custom dark theme for Visual Studio Code.
                     </p>
                     <div className="flex space-x-2 justify-center">
                     <Link href="/projects/#project2"><a>

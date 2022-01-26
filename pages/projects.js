@@ -40,23 +40,23 @@ export default function Project(){
 
                     <div id="project2" className="flex justify-center pt-16 pb-16 hover:bg-color18 rounded-lg">
                         <div className='flex-col pt-3 pl-2 mt-16'>
-                            <h2 className="text-4xl font-medium leading-tight mt-0 mb-2 text-color69 flex justify-start">Tic Tac Toe</h2>
+                            <h2 className="text-4xl font-medium leading-tight mt-0 mb-2 text-color69 flex justify-start">Minimalist_theme</h2>
                             <div className="flex justify-start mb-3">
-                                <a className="pr-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub link" href="https://github.com/sayantikag98/Tic-Tac-Toe.git" target="_blank" rel='noopener noreferrer'><i className="fab fa-github"></i></a>
-                                <a className="pr-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Website link" href="http://tic-tac-toe-nine-mauve.vercel.app/" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link"></i></a>
+                                <a className="pr-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub link" href="https://github.com/sayantikag98/vs-code-theme-site.git" target="_blank" rel='noopener noreferrer'><i className="fab fa-github"></i></a>
+                                <a className="pr-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Website link" href="https://minimalist-theme.vercel.app/" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link"></i></a>
                             </div>
                             <div className="flex justify-start mb-3">
-                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-blue-400 text-white rounded">Bootstrap</span>
-                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color16 text-white rounded">Vanilla Javascript</span>
-                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color51 text-white invisible rounded"></span>
-                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color68 text-white invisible rounded">Rapid</span>
+                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-blue-400 text-white rounded">VS Code</span>
+                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color16 text-white rounded">JSON</span>
+                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color51 text-white invisible rounded">Azure Dev</span>
+                                <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color68 text-white invisible rounded">RapidAPI</span>
                                 <span className="mr-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color95 text-white invisible rounded">Heroku</span>
                             </div>
                             <div className="absolute left-28 z-10 block p-6 rounded-lg shadow-lg bg-color4 max-w-md flex justify-end">
-                                <p className="text-gray-800 text-left">Tic Tac Toe game made using vanilla javascript and designed using bootstrap.</p>
+                                <p className="text-gray-800 text-left">A custom dark theme for VS Code inspired by Monokai Pro theme available at <a className='underline underline-offset-1 decoration-color100 decoration-double' href="https://marketplace.visualstudio.com/items?itemName=sayantikag98.minimalist-theme" target="_blank" rel="noopener noreferrer">VS Code Marketplace</a>.</p>
                             </div>
                         </div>
-                        <a target="_blank" rel='noopener noreferrer' href="http://tic-tac-toe-nine-mauve.vercel.app/"><Image src="/images/tic-tac-toe.png" height={400} width={650} class="rounded-lg" alt="..." /></a>
+                        <a target="_blank" rel='noopener noreferrer' href="https://minimalist-theme.vercel.app/"><Image src="/images/VS-Code-Theme.png" height={400} width={650} class="rounded-lg" alt="..." /></a>
                     </div>
 
 

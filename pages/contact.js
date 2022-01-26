@@ -27,7 +27,7 @@ export default function Contact(){
                                 ease-in-out
                                 m-0
                                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
-                                placeholder="Name"/>
+                                placeholder="Name" required/>
                         </div>
                         <div className="form-group mb-6">
                             <input type="email" className="form-control block
@@ -44,7 +44,7 @@ export default function Contact(){
                                 ease-in-out
                                 m-0
                                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
-                                placeholder="Email address"/>
+                                placeholder="Email address" required/>
                         </div>
                         <div className="form-group mb-6">
                             <input type="text" className="form-control block
@@ -61,7 +61,7 @@ export default function Contact(){
                                 ease-in-out
                                 m-0
                                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
-                                placeholder="Subject"/>
+                                placeholder="Subject" required/>
                         </div>
                         <div className="form-group mb-6">
                             <textarea
