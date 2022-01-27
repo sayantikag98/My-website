@@ -23,7 +23,7 @@ export default function Project(){
 
                             </div>
                             <div className="flex justify-end mb-3">
-                                <span className="ml-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-blue-400 text-white rounded">Bootstrap</span>
+                                <span className="ml-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-blue-400 text-white invisible rounded">Bootstrap</span>
                                 <span className="ml-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color16 text-white rounded">Node</span>
                                 <span className="ml-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color51 text-white rounded">Express</span>
                                 <span className="ml-2 text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-semibold bg-color68 text-white rounded">Rapid API</span>
